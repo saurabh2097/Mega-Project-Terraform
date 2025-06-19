@@ -35,6 +35,7 @@ rules:
     resources:
       - deployments
       - replicasets
+      - statefulsets
     verbs: ["get", "list", "watch", "create", "update", "delete","patch"]
 
   # Permissions for networking API group
